@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useSupabase } from '../../components/supabase-provider'
 
-import type { Database } from '../../lib/database-types'
+import type { Database } from '../../lib/database.types'
 
 type Post = Database['public']['Tables']
 
