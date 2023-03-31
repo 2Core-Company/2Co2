@@ -51,7 +51,7 @@ function Login() {
       console.log(result)
     }
 
-    if(!loading)
+    if(loading) return <></>
       return (
         <section className='text-emerald-400 w-full h-full flex flex-col items-center relative px-[20px] max-sm:px-[10px]'>
           <Image src={Logo} width={70} height={70} alt='Logo do 2Co' className='self-start mt-[5px]'/>
