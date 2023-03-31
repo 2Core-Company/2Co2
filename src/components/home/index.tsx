@@ -16,7 +16,7 @@ function Index() {
     }
 
   return (
-    <div></div>
+    <div onClick={() => handleLogout()} className='text-white'>Sair</div>
   )
 }
 
