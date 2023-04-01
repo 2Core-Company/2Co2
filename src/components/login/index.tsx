@@ -51,7 +51,7 @@ function Login() {
           <Image src={Logo} width={70} height={70} alt='Logo do 2Co' className='self-start mt-[5px]'/>
           <p className='text-[50px] max-md:text-[40px] max-sm:text-[32px] max-lsm:text-[27px] mt-[50px] text-center'>Faça Login e comece  <br/> a organizar os seus ToDos</p>
           <div className='flex mt-[100px] max-sm:mt-[60px] text-emerald-400 '>
-            <div className='drop-shadow-[0_4px_4px_rgba(25,185,67,0.9)] hover:drop-shadow-[0_2px_2px_rgba(255,255,255,0.9)]  cursor-pointer hover:scale-105  group hover:text-white duration-300 border-emerald-400  hover:border-white border-[2px] px-[10px] py-[8px] rounded-[5px] relative'>
+            <div className='drop-shadow-[0_1px_1px_rgba(25,185,67,0.9)] hover:drop-shadow-[0_1px_1px_rgba(255,255,255,0.9)]  cursor-pointer hover:scale-105  group hover:text-white duration-300 border-emerald-400  hover:border-white border-[2px] px-[10px] py-[8px] rounded-[5px] relative'>
               <div className='flex'>
                 <button onClick={handleGitHubLogin} className='text-[20px] max-lsm:text-[18px] mr-[10px]'>
                   Entrar com GitHub
