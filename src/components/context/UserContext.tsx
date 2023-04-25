@@ -3,6 +3,7 @@ import { DataUser } from "../../types/interface";
 
 const UserContext = createContext<AllContextType>({
     dataUser:{
+        id:'',
         name:'',
         email:'',
         photo_profile:'',
