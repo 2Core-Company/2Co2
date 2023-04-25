@@ -70,6 +70,7 @@ function ModalRepositories({dataUser, allRepositories, allProjects, setAllReposi
     async function UploadProject2(dataProject:{id_project:string, id_user:string}[]){
         try{
             const { data, error } = await supabase.from('projects_user').insert(dataProject)
+            setAllRepositories()
             console.log(error)
         }catch(error){
             console.log(error)
